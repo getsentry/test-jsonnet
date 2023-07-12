@@ -1,0 +1,17 @@
+{
+    "name": "test-jsonnet",
+    "description": "Jsonnet libraries for testing",
+    "type": "module",
+    "scripts": {
+      "test": "ava"
+    },
+    "devDependencies": {
+      "ava": "^5.3.0"
+    },
+    "ava": {
+      "files": [
+              "test/**/*",
+              "!test/utils"
+          ]
+    }
+  }
